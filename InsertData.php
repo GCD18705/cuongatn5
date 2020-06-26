@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <link rel ="stylesheet" href="css/style2.css">
+    
     <head>
         <title>ATN STORE</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="css/style2.css">
         <style>
             li {
                 list-style: none;
