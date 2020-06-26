@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    outline: none;
+    padding:auto;
+    text-decoration: none;
+    box-sizing:border-box;
+    width: auto;
+    height: auto;
+}
+
+body{
+	font-size: 16px;
+	margin: 0;
+	font-family: sans-serif;
+	color: #333;
+	align-items: center;
+}
+
+.box-search{
+	line-height: 100px;
+	margin-left: 100px;
+}
+.sbm:hover{
+	background: #F1F1F1;
+}
+
+.banner{
+	width: 100%
+	height: auto;
+	
+}
+.banner a img{
+	width: 100%;
+	height: 783px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.containt{
+	width: 100%
+	height: auto;	
+}
+
+.box-cont1 h3{
+	text-align: center;
+}
+
+.box-cont1{
+	padding-top:50px;
+	width: 1250px;
+	height: 900px;
+	color: #a42;
+	margin: auto;
+	text-align: center;
+}
+
+.box-cont2 h3{
+	text-align: center;
+}
+
+.box-cont2{
+	padding-top:50px;
+	width: 1250px;
+	height: 900px;
+	color: #a42;
+	margin: auto;
+	text-align: center;
+}
+
+.box-cont3 h3{
+	text-align: center;
+}
+
+.box-cont3{
+	padding-top:50px;
+	width: 1250px;
+	height: 900px;
+	color: #a42;
+	margin: auto;
+	text-align: center;
+}
+
+.box-cont-item{
+	width: 220px;
+	height: 350px;
+	border: 2px solid;
+	margin: 10px 10px 10px 20px;
+	float: left;
+}
+
+.item a{
+	margin: auto;
+	color: #000;
+	text-align: center;
+}
+
+.box-cont-item p{
+	text-align: center;
+}
+
+.item{
+	width: 180px;
+	height: 200px;
+	padding: 20px;
+
+}
+
+.item a:hover{
+	color: #a42;
+	text-decoration: none;
+}
+
+.item p{
+	list-style: none;
+	font-size: 15px;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 50px;
+	border-top: 1px solid;
+}
+
+.grid{
+	width: 100%;
+}
+
+.grid-row{
+	display: flex;
+	background: #2E2E2E;
+	width: 100%;
+	color: #FFFFFF;
+	padding: 0;
+}
+
+.grid-cloumn1{
+	width: 40%;
+}
+
+.grid-cloumn1 ul{
+	display: block !important;
+	padding: 0;	
+	list-style-type: none;
+	margin: 0;
+}
+
+.grid-cloumn1 ul li{
+    width: 60%;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.grid-cloumn1 ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+
+.grid-cloumn1 ul a:hover{
+	color: #a42;
+}
+
+.grid-cloumn2{
+	width: 50%;
+}
+
+.grid-cloumn2 ul{
+	display: block;
+	list-style: none;
+	text-align:left;
+}
+
+.grid-cloumn2 ul li{
+	display: inline-block;
+    width: 40%;
+    float: left;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+}
+
+.grid-cloumn2 ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.grid-cloumn2 ul li a:hover{
+	color: #a42;
+}
+
+
+.grid-cloumn3{
+	width: 50%;
+}
+
+.grid-cloumn3 ul{
+	list-style: none;
+	
+}
+
+.social img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 30px;
+	border-radius: 15px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: #717171;
+}
+ 
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ 
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
