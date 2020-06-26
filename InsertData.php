@@ -12,6 +12,8 @@
         </style>
     </head>
 <body>
+    <div class="InsertData">
+        
         <h1>INSERT DATA TO DATABASE</h1>
         <h2>Enter data into table</h2>
 <ul>
@@ -25,7 +27,7 @@
         <li><input type="submit" value="Submit" /></li>
     </form>
 </ul>
-
+    </div>
 <?php
 
 if (empty(getenv("DATABASE_URL"))){
