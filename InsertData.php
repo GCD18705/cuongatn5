@@ -16,11 +16,11 @@
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
         <li>ID:</li>
-        <li><input type="text" name="ID" /></li>
+        <li><input type="text" name="id" /></li>
         <li>Name</li>
-        <li><input type="text" name="Name" /></li>
+        <li><input type="text" name="name" /></li>
         <li>Price</li>
-        <li><input type="text" name="Price" /></li>
+        <li><input type="text" name="price" /></li>
         <li><input type="submit" value="Submit" /></li>
     </form>
 </ul>
