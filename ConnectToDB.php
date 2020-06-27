@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
 <body>
+    
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-<h1>DATABASE CONNECTION</h1>
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+
+<h1>INFORMATION PRODUCTS</h1>
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud Computing class 0705!";
+echo "WELCOME TO ATN SHOP!";
 ?>
 
 <?php
-
-
 if (empty(getenv("DATABASE_URL"))){
     echo '<p>The DB does not exist</p>';
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
@@ -38,17 +57,17 @@ $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
 echo '<p>product information:</p>';
-
 ?>
-<div id="container">
-<table class="table table-bordered table-condensed">
-    <thead>
-      <tr>
-        <th>id</th>
-        <th>name</th>
-        <th>price</th>
-      </tr>
-    </thead>
+
+        <div id="container">
+            <table class="table table-bordered table-condensed">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
     <tbody>
       <?php
       // tạo vòng lặp 
@@ -59,8 +78,7 @@ echo '<p>product information:</p>';
       <tr>
         <td scope="row"><?php echo $row['id'] ?></td>
         <td><?php echo $row['name'] ?></td>
-        <td><?php echo $row['price'] ?></td>
-        
+        <td><?php echo $row['price'] ?></td> 
       </tr>
      
       <?php
