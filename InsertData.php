@@ -30,7 +30,7 @@
                 
             </div>
             
-                <li><input type="submit" value="Submit" /></li>
+            <li><input type="submit" value="Submit" /></li>
         <?php
 
 if (empty(getenv("DATABASE_URL"))){
