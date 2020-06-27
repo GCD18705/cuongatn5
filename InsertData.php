@@ -2,6 +2,7 @@
 <html>
     
     <head>
+        <link rel="stylesheet"  href="css/style4.css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <style>
             li {
@@ -11,20 +12,32 @@
     </head>
 <body>
     <div class="InsertData">
-        
-        <h1>INSERT PRODUCTS</h1>
-        <h2>Enter information into table</h2>
-<ul>
-    <form name="InsertData" action="InsertData.php" method="POST" >
-        <li>ID:</li>
-        <li><input type="text" name="id" /></li>
-        <li>Name:</li>
-        <li><input type="text" name="name" /></li>
-        <li>Price:</li>
-        <li><input type="text" name="price" /></li>
-        <li><input type="submit" value="Submit" /></li>
-    </form>
-</ul>
+        <h1>ATN SHOP</h1>
+
+        <form>
+            <div class="insertdata">
+                <input type="text" name="id" action="InsertData.php" method="POST">
+                <label>ID:</label>
+            </div>
+
+            <div class="insertdata">
+                <input type="text" name="name" action="InsertData.php" method="POST">
+                <label>Name:</label>
+            </div>
+
+            <div class="insertdata">
+                <input type="text" name="price" action="InsertData.php" method="POST">
+                <label>Price:</label>
+            </div>
+
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+            </a>
+        </form>
     </div>
 <?php
 
@@ -50,15 +63,6 @@ if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
 
-//Khởi tạo Prepared Statement
-//$stmt = $pdo->prepare('INSERT INTO student (stuid, fname, email, classname) values (:id, :name, :email, :class)');
-
-//$stmt->bindParam(':id','SV03');
-//$stmt->bindParam(':name','Ho Hong Linh');
-//$stmt->bindParam(':email', 'Linhhh@fpt.edu.vn');
-//$stmt->bindParam(':class', 'GCD018');
-//$stmt->execute();
-//$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
 $sql = "INSERT INTO product(id, name, price)"
         . " VALUES('$_POST[id]','$_POST[name]','$_POST[price]')";
 $stmt = $pdo->prepare($sql);
