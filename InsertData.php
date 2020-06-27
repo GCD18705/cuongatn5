@@ -2,7 +2,7 @@
 <html>
     
     <head>
-        <title>ATN STORE</title>
+        <title>ATN_STORE</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <style>
             li {
@@ -13,8 +13,8 @@
 <body>
     <div class="InsertData">
         
-        <h1>INSERT DATA TO DATABASE</h1>
-        <h2>Enter data into table</h2>
+        <h1>INSERT PRODUCTS</h1>
+        <h2>Enter information into table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
         <li>ID:</li>
