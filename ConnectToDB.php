@@ -32,10 +32,9 @@ echo "WELCOME TO ATN SHOP!";
 
 <?php
 if (empty(getenv("DATABASE_URL"))){
-    echo '<p>The DB does not exist</p>';
+    echo '<p>The DB does not exist.</p>';
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
 }  else {
-     echo '<p>The DB exists</p>';
      echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
@@ -56,7 +55,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>product information:</p>';
+echo '<p>Product Information:</p>';
 ?>
 
         <div id="container">
