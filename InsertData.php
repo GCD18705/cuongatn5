@@ -14,7 +14,7 @@
     <div class="InsertData">
         <h1>ATN SHOP</h1>
 
-        <form>
+        <form name="InsertData" action="InsertData.php" method="POST">
             <div class="insertdata">
                 <input type="text" name="id" action="InsertData.php" method="POST">
                 <label>ID:</label>
