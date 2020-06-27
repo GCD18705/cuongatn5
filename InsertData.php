@@ -2,7 +2,6 @@
 <html>
     
     <head>
-        <title>ATN_STORE</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <style>
             li {
@@ -19,9 +18,9 @@
     <form name="InsertData" action="InsertData.php" method="POST" >
         <li>ID:</li>
         <li><input type="text" name="id" /></li>
-        <li>Name</li>
+        <li>Name:</li>
         <li><input type="text" name="name" /></li>
-        <li>Price</li>
+        <li>Price:</li>
         <li><input type="text" name="price" /></li>
         <li><input type="submit" value="Submit" /></li>
     </form>
