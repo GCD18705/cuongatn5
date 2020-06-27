@@ -30,9 +30,11 @@ body {
 
 .InsertData .insertdata {
   position: relative;
-  color: #fff
+ 
 }
-
+.InsertData .insertdata .placeholder{
+     color: #fff;
+}
 .InsertData .insertdata input {
   width: 100%;
   padding: 10px 0;
