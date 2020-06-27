@@ -46,23 +46,7 @@ body {
   outline: none;
   background: transparent;
 }
-.InsertData .insertdata label {
-  position: absolute;
-  top:0;
-  left: 0;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: none;
-  transition: .5s;
-}
 
-.InsertData .insertdata input:focus ~ label,
-.InsertData .insertdata input:valid ~ label {
-  left: 0;
-  color: #fff;
-  font-size: 18px;
-}
 
 
 
