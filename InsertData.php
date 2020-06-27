@@ -52,7 +52,7 @@ ec2-50-17-90-177.compute-1.amazonaws.com
 }  
 
 if($pdo === false){
-     echo "ERROR: Could not connect Database";
+     echo "ERROR: Could not connect Database.";
 }
 
 $sql = "INSERT INTO product(id, name, price)"
@@ -67,7 +67,7 @@ $stmt = $pdo->prepare($sql);
     if($stmt->execute() == TRUE){
         echo "Record inserted successfully.";
     } else {
-        echo "Error inserting record: ";
+        echo "Error inserting record. ";
     }
  }
 ?>  

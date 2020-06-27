@@ -35,16 +35,20 @@ body {
  
 }
 
+.li{
+    list-style: none;
+    text-align: center;
+}
+
 .InsertData .insertdata input {
-  width: 100%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  margin-bottom: 30px;
-  border: none;
-  border-bottom: 1px solid #fff;
-  outline: none;
-  background: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border: 1px solid #fff;
+    outline: none;
 }
 
 
