@@ -105,12 +105,10 @@
 
 <header class="containt">
 	<div class="box-cont">
-
             <div class="box-img"><a href="ltc.html"><img src="./images/toy1.jpg"></a></div>
             <div class="box-img"><a href="ltc.html"><img src="./images/toy2.jpg"></a></div>
             <div class="box-img"><a href="ltc.html"><img src="./images/toy3.jpg"></a></div>
             <div class="box-img"><a href="ltc.html"><img src="./images/toy4.jpg"></a></div>
-
 	</div>
 </header>
 
