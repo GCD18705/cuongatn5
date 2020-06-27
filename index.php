@@ -51,15 +51,15 @@
 		<header>
 		<div class="slideshow-container">
   			<div class="mySlides fade">
-                            <img src="./images/hinh1.jpg.jpg" style="width:100%">
+                            <img src="./images/hinh1.jpg" style="width:100%">
   			</div>
  
   		<div class="mySlides fade">
-                    <img src="./images/hinh2.jpg.jpg" style="width:100%">
+                    <img src="./images/hinh2.jpg" style="width:100%">
   		</div>
  
   			<div class="mySlides fade">
-                            <img src="./images/hinh3.jpg.jpg" style="width:100%">
+                            <img src="./images/hinh3.jpg" style="width:100%">
   			</div>
 		</div>
 	<br>
