@@ -1,17 +1,18 @@
 .box-img img{
    
-	width: 550px;
+	width: 450px;
 	height:300px;
 	box-shadow: 0 20px 20px rgba(0,0,0,0.5);
 	margin: 40px 20px 20px 30px;
 	border-radius: 10px;
 }
 
-.box-cont{
-        display: flex;
-	margin-top: 50px;
-	margin: auto;
-	width: 1250px;
-	height: 800px;
-	text-align: center;
+
+.box-cont {
+    margin-top: 50px;
+    margin: auto;
+    width: 1250px;
+    height: 800px;
+    text-align: center;
+    display: flex;
 }
