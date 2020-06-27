@@ -30,12 +30,8 @@
                 
             </div>
             
-           
                 <li><input type="submit" value="Submit" /></li>
-          
-        </form>
-    </div>
-<?php
+        <?php
 
 if (empty(getenv("DATABASE_URL"))){
     echo '<p>The DB does not exist</p>';
@@ -74,6 +70,9 @@ $stmt = $pdo->prepare($sql);
         echo "Error inserting record: ";
     }
  }
-?>
+?>  
+        </form>
+    </div>
+
 </body>
 </html>
