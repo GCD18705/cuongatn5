@@ -26,17 +26,13 @@
             </div>
 
             <div class="insertdata">
-                <input type="text" name="price" action="InsertData.php" method="POST" placeholder="Name">
+                <input type="text" name="price" action="InsertData.php" method="POST" placeholder="Price">
                 
             </div>
-
-            <a href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-            </a>
+            
+           
+                <li><input type="submit" value="Submit" /></li>
+          
         </form>
     </div>
 <?php
