@@ -16,18 +16,18 @@
 
         <form name="InsertData" action="InsertData.php" method="POST">
             <div class="insertdata">
-                <input type="text" name="id" action="InsertData.php" method="POST">
-                <label>ID:</label>
+                <input type="text" name="id" action="InsertData.php" method="POST" placeholder="ID">
+               
             </div>
 
             <div class="insertdata">
-                <input type="text" name="name" action="InsertData.php" method="POST">
-                <label>Name:</label>
+                <input type="text" name="name" action="InsertData.php" method="POST" placeholder="Name">
+                
             </div>
 
             <div class="insertdata">
-                <input type="text" name="price" action="InsertData.php" method="POST">
-                <label>Price:</label>
+                <input type="text" name="price" action="InsertData.php" method="POST" placeholder="Name">
+                
             </div>
 
             <a href="#">
